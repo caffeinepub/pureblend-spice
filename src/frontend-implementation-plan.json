@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update hero section text to yellow color",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text to yellow color for improved visibility and consistency",
+      "acceptanceCriteria": [
+        "The company name 'Pureblend Spice Private Limited' text is displayed in yellow",
+        "The three paragraph descriptions about the company, product benefits, and mission are displayed in yellow or a complementary bright color that maintains readability",
+        "Text shadows or other visual treatments ensure the yellow text remains readable against the background image",
+        "The color change is consistent with the existing yellow styling of the 'Pureblend Spice' heading and tagline"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Update the company name heading and description paragraphs to use yellow color styling. Apply the same yellow color class (text-yellow-400 or equivalent bright yellow) used for the existing 'Pureblend Spice' heading and tagline to the 'Pureblend Spice Private Limited' heading and the three descriptive paragraphs. Ensure text shadows are maintained or enhanced to preserve readability against the background image."
+        }
+      ]
+    }
+  ]
+}

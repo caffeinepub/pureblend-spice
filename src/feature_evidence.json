@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-change-the-hero-section-heading-pureblend-spice-private-limited-and-company-description-text-in-the-hero-component-to-yellow-color-for-improved-visibility-and-consistency-with-the-existing-yellow-heading-and-tagline",
+      "featureTitle": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

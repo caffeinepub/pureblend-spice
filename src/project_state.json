@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Simple website for Pureblend Spice Private Limited - a handcrafted spice blend company offering authentic, preservative-free spice blends enriched with superfoods like moringa and curry leaves, sourced from women-led FPOs",
+  "architectural_notes": [
+    "Website showcasing handcrafted spice blends with nutritional benefits",
+    "Content focused on purity, wellness, and social impact (women-led FPOs)",
+    "Multi-channel revenue strategy: e-commerce, retail partnerships, subscriptions"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-that-introduces-pureblend-spice-private-limited-as-a-handcrafted-spice-blend-company-committed-to-reviving-authentic-spice-mixing-traditions-while-addressing-modern-nutritional-needs",
+      "title": "Create a homepage that introduces Pureblend Spice Private Limited as a handcrafted spice blend company committed to reviving authentic spice mixing traditions while addressing modern nutritional needs",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-problem-statement-section-explaining-that-mass-produced-spice-powders-contain-added-colors-preservatives-and-fillers-while-consumers-today-are-health-conscious-and-seeking-nutrient-rich-authentic-food-and-the-traditional-art-of-handcrafted-spice-blending-is-being-forgotten",
+      "title": "Create a Problem Statement section explaining that mass-produced spice powders contain added colors, preservatives, and fillers, while consumers today are health-conscious and seeking nutrient-rich, authentic food, and the traditional art of handcrafted spice blending is being forgotten",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-solution-section-showcasing-that-pureblend-offers-handcrafted-spice-blends-that-are-free-from-preservatives-and-artificial-colors-enhanced-with-nutritional-superfoods-like-moringa-and-curry-leaves-and-highlighting-the-usp-as-a-fusion-of-tradition-and-innovation",
+      "title": "Create a Solution section showcasing that Pureblend offers handcrafted spice blends that are free from preservatives and artificial colors, enhanced with nutritional superfoods like moringa and curry leaves, and highlighting the USP as a fusion of tradition and innovation",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-social-impact-sourcing-section-explaining-that-ingredients-are-sourced-from-women-led-farmer-producer-organizations-fpos-empowering-rural-women-through-fair-trade-and-sustainable-partnerships-and-building-a-community-driven-supply-chain",
+      "title": "Create a Social Impact & Sourcing section explaining that ingredients are sourced from women-led Farmer Producer Organizations (FPOs), empowering rural women through fair trade and sustainable partnerships, and building a community-driven supply chain",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-market-opportunity-section-highlighting-rising-demand-for-clean-label-functional-foods-target-customers-health-conscious-families-millennials-seeking-authentic-eco-friendly-products-export-markets-and-positioning-as-a-premium-wellness-brand",
+      "title": "Create a Market Opportunity section highlighting rising demand for clean-label functional foods, target customers (health-conscious families, millennials seeking authentic eco-friendly products, export markets), and positioning as a premium wellness brand",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-vision-call-to-action-section-with-the-vision-to-revive-handcrafted-spice-traditions-while-innovating-for-modern-nutrition-mission-to-deliver-authentic-nutrient-rich-spice-blends-that-empower-women-farmers-and-include-a-call-for-investment-and-partnerships-with-wellness-retailers-and-e-commerce-platforms",
+      "title": "Create a Vision & Call to Action section with the vision to revive handcrafted spice traditions while innovating for modern nutrition, mission to deliver authentic nutrient-rich spice blends that empower women farmers, and include a call for investment and partnerships with wellness retailers and e-commerce platforms",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-revenue-model-section-explaining-the-multi-channel-strategy-including-direct-to-consumer-sales-via-e-commerce-and-branded-online-store-retail-partnerships-with-health-focused-outlets-and-gourmet-food-stores-subscription-models-for-regular-spice-deliveries-and-premium-packaging-with-limited-edition-blends",
+      "title": "Create a Revenue Model section explaining the multi-channel strategy including direct-to-consumer sales via e-commerce and branded online store, retail partnerships with health-focused outlets and gourmet food stores, subscription models for regular spice deliveries, and premium packaging with limited-edition blends",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-and-implement-a-cohesive-visual-identity-with-warm-earthy-tones-terracotta-sage-green-golden-ochre-that-evoke-natural-spices-and-wellness-using-elegant-serif-typography-for-headings-paired-with-clean-sans-serif-body-text-and-incorporating-organic-patterns-and-illustrations-that-reference-spice-ingredients-and-traditional-craftsmanship-throughout-the-site",
+      "title": "Design and implement a cohesive visual identity with warm, earthy tones (terracotta, sage green, golden ochre) that evoke natural spices and wellness, using elegant serif typography for headings paired with clean sans-serif body text, and incorporating organic patterns and illustrations that reference spice ingredients and traditional craftsmanship throughout the site",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-increase-the-visibility-and-readability-of-the-hero-section-heading-text-pureblend-spice-and-tagline-pure-taste-pure-health-pureblend-by-improving-contrast-adding-text-shadows-or-background-overlays-and-or-adjusting-typography-weight-to-ensure-the-text-stands-out-clearly-against-the-background-image",
+      "title": "Increase the visibility and readability of the hero section heading text 'Pureblend Spice' and tagline 'Pure Taste. Pure Health. Pureblend.' by improving contrast, adding text shadows or background overlays, and/or adjusting typography weight to ensure the text stands out clearly against the background image",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-the-hero-section-heading-pureblend-spice-and-tagline-pure-taste-pure-health-pureblend-text-color-to-yellow-or-a-brighter-color-that-improves-visibility-against-the-background-image",
+      "title": "Change the hero section heading 'Pureblend Spice' and tagline 'Pure Taste. Pure Health. Pureblend.' text color to yellow or a brighter color that improves visibility against the background image",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-the-hero-section-heading-pureblend-spice-private-limited-and-company-description-text-in-the-hero-component-to-yellow-color-for-improved-visibility-and-consistency-with-the-existing-yellow-heading-and-tagline",
+      "title": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Simple website for Pureblend Spice",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Pureblend Spice",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

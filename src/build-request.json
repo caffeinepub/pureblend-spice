@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Update hero section text to yellow color",
+  "projectName": "Pureblend Spice",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "change to yellow"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The company name 'Pureblend Spice Private Limited' text is displayed in yellow",
+        "The three paragraph descriptions about the company, product benefits, and mission are displayed in yellow or a complementary bright color that maintains readability",
+        "Text shadows or other visual treatments ensure the yellow text remains readable against the background image",
+        "The color change is consistent with the existing yellow styling of the 'Pureblend Spice' heading and tagline"
+      ]
+    }
+  ],
+  "constraints": [
+    "Maintain existing text shadows and visibility enhancements",
+    "Preserve the current layout and structure of the Hero component",
+    "Ensure readability against the background image"
+  ],
+  "nonGoals": [
+    "Changing the background image",
+    "Modifying other sections beyond the Hero component",
+    "Altering the content or wording of the text"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
