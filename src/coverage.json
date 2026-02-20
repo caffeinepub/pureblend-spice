@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-20T07:50:45.942Z",
+  "generatedAt": "2026-02-20T07:54:57.674Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -11,8 +11,8 @@
     "implemented": 1,
     "items": [
       {
-        "id": "REQ-11",
-        "summary": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+        "id": "REQ-12",
+        "summary": "Apply a blur effect to the hero section background image in the Hero component to make the yellow text (heading 'Pureblend Spice Private Limited', tagline 'Pure Taste. Pure Health. Pureblend.', and description paragraphs) stand out more clearly against the background",
         "status": "implemented",
         "plannedFiles": [
           "frontend/src/components/Hero.tsx"

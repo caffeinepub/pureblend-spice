@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-change-the-hero-section-heading-pureblend-spice-private-limited-and-company-description-text-in-the-hero-component-to-yellow-color-for-improved-visibility-and-consistency-with-the-existing-yellow-heading-and-tagline",
-      "featureTitle": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+      "featureId": "feature-apply-a-blur-effect-to-the-hero-section-background-image-in-the-hero-component-to-make-the-yellow-text-heading-pureblend-spice-private-limited-tagline-pure-taste-pure-health-pureblend-and-description-paragraphs-stand-out-more-clearly-against-the-background",
+      "featureTitle": "Apply a blur effect to the hero section background image in the Hero component to make the yellow text (heading 'Pureblend Spice Private Limited', tagline 'Pure Taste. Pure Health. Pureblend.', and description paragraphs) stand out more clearly against the background",
       "files": [
         "frontend/src/components/Hero.tsx"
       ],
@@ -15,7 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-12"
       ],
       "confidence": "high"
     }

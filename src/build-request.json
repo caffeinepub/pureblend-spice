@@ -1,38 +1,39 @@
 {
   "kind": "build_request",
-  "title": "Update hero section text to yellow color",
+  "title": "Add blur effect to hero background image for better text visibility",
   "projectName": "Pureblend Spice",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-11",
-      "text": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text in the Hero component to yellow color for improved visibility and consistency with the existing yellow heading and tagline",
+      "id": "REQ-12",
+      "text": "Apply a blur effect to the hero section background image in the Hero component to make the yellow text (heading 'Pureblend Spice Private Limited', tagline 'Pure Taste. Pure Health. Pureblend.', and description paragraphs) stand out more clearly against the background",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-6"
+          "msg-latest"
         ],
         "quotes": [
-          "change to yellow"
+          "in the first page make the picture kinda blurrish to make the words stand out"
         ]
       },
       "acceptanceCriteria": [
-        "The company name 'Pureblend Spice Private Limited' text is displayed in yellow",
-        "The three paragraph descriptions about the company, product benefits, and mission are displayed in yellow or a complementary bright color that maintains readability",
-        "Text shadows or other visual treatments ensure the yellow text remains readable against the background image",
-        "The color change is consistent with the existing yellow styling of the 'Pureblend Spice' heading and tagline"
+        "The hero section background image has a visible blur effect applied",
+        "The yellow text remains clearly readable and stands out against the blurred background",
+        "The blur effect is subtle enough to maintain visual appeal while improving text contrast",
+        "The effect is applied using CSS techniques (backdrop-filter or filter property on the background layer)"
       ]
     }
   ],
   "constraints": [
-    "Maintain existing text shadows and visibility enhancements",
-    "Preserve the current layout and structure of the Hero component",
-    "Ensure readability against the background image"
+    "Do not modify the yellow text color that was recently implemented",
+    "Preserve the existing hero section layout and structure",
+    "Do not change any other components outside the Hero component"
   ],
   "nonGoals": [
-    "Changing the background image",
-    "Modifying other sections beyond the Hero component",
-    "Altering the content or wording of the text"
+    "Changing text colors or typography",
+    "Modifying other sections of the website",
+    "Adding new content to the hero section",
+    "Replacing the background image"
   ],
   "imageRequirements": {
     "required": [],

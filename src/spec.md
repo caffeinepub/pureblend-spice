@@ -1,11 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update hero section text colors to yellow for improved visibility and brand consistency.
+**Goal:** Apply a blur effect to the hero section background image to improve text visibility and make the yellow text stand out more clearly.
 
 **Planned changes:**
-- Change the company name "Pureblend Spice Private Limited" text color to yellow
-- Change the three company description paragraphs to yellow or a complementary bright color
-- Ensure text shadows and readability treatments are maintained against the background image
+- Add a blur effect to the hero section background image in the Hero component using CSS
+- Ensure the yellow text (heading, tagline, and description) remains clearly readable against the blurred background
+- Maintain the existing layout, structure, and yellow text color
 
-**User-visible outcome:** The hero section displays all text in yellow colors that match the existing branding while maintaining readability against the background.
+**User-visible outcome:** The hero section will display a subtly blurred background image that enhances the visibility and impact of the yellow text overlay.

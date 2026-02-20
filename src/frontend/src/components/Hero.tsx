@@ -9,6 +9,7 @@ export function Hero() {
           src="/assets/generated/hero-spices.dim_1920x800.png"
           alt="Artisanal spice blends"
           className="w-full h-full object-cover"
+          style={{ filter: 'blur(4px)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/75 to-background/90" />
       </div>

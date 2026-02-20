@@ -1,22 +1,22 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update hero section text to yellow color",
+  "title": "Add blur effect to hero background image for better text visibility",
   "requirements": [
     {
-      "id": "REQ-11",
-      "summary": "Change the hero section heading 'Pureblend Spice Private Limited' and company description text to yellow color for improved visibility and consistency",
+      "id": "REQ-12",
+      "summary": "Apply blur effect to hero section background image to improve yellow text visibility",
       "acceptanceCriteria": [
-        "The company name 'Pureblend Spice Private Limited' text is displayed in yellow",
-        "The three paragraph descriptions about the company, product benefits, and mission are displayed in yellow or a complementary bright color that maintains readability",
-        "Text shadows or other visual treatments ensure the yellow text remains readable against the background image",
-        "The color change is consistent with the existing yellow styling of the 'Pureblend Spice' heading and tagline"
+        "The hero section background image has a visible blur effect applied",
+        "The yellow text remains clearly readable and stands out against the blurred background",
+        "The blur effect is subtle enough to maintain visual appeal while improving text contrast",
+        "The effect is applied using CSS techniques (backdrop-filter or filter property on the background layer)"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Hero.tsx",
           "operation": "modify",
-          "description": "Update the company name heading and description paragraphs to use yellow color styling. Apply the same yellow color class (text-yellow-400 or equivalent bright yellow) used for the existing 'Pureblend Spice' heading and tagline to the 'Pureblend Spice Private Limited' heading and the three descriptive paragraphs. Ensure text shadows are maintained or enhanced to preserve readability against the background image."
+          "description": "Apply a blur effect to the hero section background image layer using CSS filter or backdrop-filter to improve text contrast. Adjust the background image rendering so that the blur is applied to the image while keeping the yellow hero text (heading 'Pureblend Spice Private Limited', tagline 'Pure Taste. Pure Health. Pureblend.', and description paragraphs) sharp and readable. Use a subtle blur value (e.g., blur(4px) to blur(8px)) to maintain visual appeal. Ensure the existing yellow text color, text shadows, layout structure, and animated scroll indicator remain unchanged."
         }
       ]
     }
